@@ -11,4 +11,4 @@ COPY squid.conf /etc/squid/squid.conf
 
 EXPOSE 3128
 
-CMD ["squid", "-N", "-d", "1"]
+CMD ["bash", "-c", "sleep 1 && squid -N -d 1"]
