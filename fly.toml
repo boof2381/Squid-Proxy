@@ -3,13 +3,6 @@ primary_region = "iad"
 
 [build]
 
-[[services]]
-  internal_port = 3128
-  protocol = "tcp"
-
-  [[services.ports]]
-    port = 3128
-
 [http_service]
   internal_port = 3128
   force_https = true
