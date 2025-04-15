@@ -17,4 +17,4 @@ COPY squid.conf /etc/squid/squid.conf
 EXPOSE 3128
 
 # Run Squid in the foreground with debugging enabled
-CMD ["squid", "-N", "-d", "1"]
+CMD ["squid", "-NYCd", "1"]
