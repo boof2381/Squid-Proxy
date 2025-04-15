@@ -9,6 +9,7 @@ primary_region = "iad"
 
   [[services.ports]]
     port = 3128
+    handlers = ["http"]
 
 [[vm]]
   memory = "1gb"
