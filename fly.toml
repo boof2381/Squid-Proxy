@@ -1,5 +1,7 @@
-app = "squid-proxy-jiz78g"  # or whatever your actual app name is
+app = "squid-proxy-jiz78g"
 primary_region = "iad"
+
+[build]
 
 [[services]]
   internal_port = 3128
