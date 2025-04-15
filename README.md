@@ -1,1 +1,1 @@
-# Squid-Proxys
+# Squid-Proxy
