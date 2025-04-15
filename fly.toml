@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for squid-proxy-rkvhfw on 2025-04-15T01:55:02Z
+# fly.toml app configuration file generated for squid-proxy-1bnehg on 2025-04-15T02:05:39Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'squid-proxy-rkvhfw'
+app = 'squid-proxy-1bnehg'
 primary_region = 'iad'
 
 [build]
