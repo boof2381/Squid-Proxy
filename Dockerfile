@@ -8,4 +8,4 @@ COPY squid.conf /etc/squid/squid.conf
 
 EXPOSE 3128
 
-CMD ["squid", "-N", "-d", "1"]
+CMD ["sh", "-c", "echo Hello from Squid && sleep 3600"]
