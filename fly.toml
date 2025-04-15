@@ -9,3 +9,8 @@ primary_region = "iad"
 
   [[services.ports]]
     port = 3128
+
+[[vm]]
+  memory = "1gb"
+  cpu_kind = "shared"
+  cpus = 1
